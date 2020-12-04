@@ -8,7 +8,7 @@ const API_V1 = require("./app/routes/v1.routes");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:3000"
+    "origin": "*",
 };
 
 app.use(cors(corsOptions));
